@@ -3,7 +3,7 @@
 ![スクショ](スクショ.png)
 
 ## デモ
-https://your-app-url.streamlit.app (※ここにStreamlit CloudのURLを入れてください)
+https://www.perplexity.ai/search/mian-dao-naye-wu-ka-situhashi-2YQzer82QoSHvJghyl68sA
 
 Antigravityで5分作成！
 
