@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
             padding: 20px;
             background-color: #f4f4f9;
         }
+
         header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -21,23 +23,27 @@
             border-radius: 10px;
             text-align: center;
             margin-bottom: 40px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             margin: 0;
             font-size: 2.5em;
         }
+
         .subtitle {
             font-size: 1.2em;
             opacity: 0.9;
             margin-top: 10px;
         }
+
         .container {
             background: white;
             padding: 40px;
             border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
         }
+
         .btn {
             display: inline-block;
             background-color: #ff4b4b;
@@ -49,21 +55,26 @@
             transition: background 0.3s;
             margin: 10px 5px;
         }
+
         .btn:hover {
             background-color: #ff1c1c;
         }
+
         .btn-secondary {
             background-color: #333;
         }
+
         .btn-secondary:hover {
             background-color: #000;
         }
+
         footer {
             text-align: center;
             margin-top: 40px;
             color: #777;
             font-size: 0.9em;
         }
+
         code {
             background: #eee;
             padding: 2px 5px;
@@ -71,41 +82,45 @@
         }
     </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Day 1: Python Runner</h1>
-    <div class="subtitle">Antigravityで作る、初めてのPython Webアプリ</div>
-</header>
+    <header>
+        <h1>Day 1: Python Runner</h1>
+        <div class="subtitle">Antigravityで作る、初めてのPython Webアプリ</div>
+    </header>
 
-<div class="container">
-    <h2>🎉 プロジェクト概要</h2>
-    <p>このアプリケーションは、Webブラウザ上で簡単なPythonコードを実行できるツールです。Streamlitを使用して構築されており、標準出力やエラーメッセージをリアルタイムで確認できます。</p>
-    
-    <div style="text-align: center; margin: 30px 0;">
-        <a href="https://github.com/yumina2021/python-runner-day1" class="btn btn-secondary" target="_blank">GitHubリポジトリを見る</a>
-        <!-- Streamlit CloudのURLが発行されたらここを書き換えてください -->
-        <a href="#" class="btn" onclick="alert('Streamlit Cloudへのデプロイを行ってください！')">アプリのデモを見る (準備中)</a>
+    <div class="container">
+        <h2>🎉 プロジェクト概要</h2>
+        <p>このアプリケーションは、Webブラウザ上で簡単なPythonコードを実行できるツールです。Streamlitを使用して構築されており、標準出力やエラーメッセージをリアルタイムで確認できます。</p>
+
+        <div style="text-align: center; margin: 30px 0;">
+            <a href="https://github.com/yumina2021/python-runner-day1" class="btn btn-secondary"
+                target="_blank">GitHubリポジトリを見る</a>
+            <!-- Streamlit CloudのURLが発行されたらここを書き換えてください -->
+            <a href="https://python-runner-day1-jsxdicgb2k763cpe6jh4wh.streamlit.app/" class="btn"
+                target="_blank">アプリのデモを見る</a>
+        </div>
+
+        <h3>🚀 機能</h3>
+        <ul>
+            <li>Pythonコードの記述と実行</li>
+            <li>実行結果（標準出力・標準エラー）の表示</li>
+            <li>シンプルなWebインターフェース</li>
+        </ul>
+
+        <h3>💻 使い方</h3>
+        <ol>
+            <li>リポジトリをクローンまたはダウンロードします。</li>
+            <li>必要なライブラリをインストールします: <code>pip install -r requirements.txt</code></li>
+            <li>アプリを起動します: <code>streamlit run app.py</code></li>
+        </ol>
     </div>
 
-    <h3>🚀 機能</h3>
-    <ul>
-        <li>Pythonコードの記述と実行</li>
-        <li>実行結果（標準出力・標準エラー）の表示</li>
-        <li>シンプルなWebインターフェース</li>
-    </ul>
-
-    <h3>💻 使い方</h3>
-    <ol>
-        <li>リポジトリをクローンまたはダウンロードします。</li>
-        <li>必要なライブラリをインストールします: <code>pip install -r requirements.txt</code></li>
-        <li>アプリを起動します: <code>streamlit run app.py</code></li>
-    </ol>
-</div>
-
-<footer>
-    <p>&copy; 2026 Antigravity Project - Day 1</p>
-</footer>
+    <footer>
+        <p>&copy; 2026 Antigravity Project - Day 1</p>
+    </footer>
 
 </body>
+
 </html>

@@ -3,7 +3,7 @@
 ![スクショ](スクショ.png)
 
 ## デモ
-https://your-app-url.streamlit.app (※ここにStreamlit CloudのURLを入れてください)
+https://python-runner-day1-jsxdicgb2k763cpe6jh4wh.streamlit.app/
 
 Antigravityで5分作成！
 
