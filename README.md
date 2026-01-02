@@ -3,7 +3,7 @@
 ![スクショ](スクショ.png)
 
 ## デモ
-https://www.perplexity.ai/search/mian-dao-naye-wu-ka-situhashi-2YQzer82QoSHvJghyl68sA
+https://python-runner-day1-jsxdicgb2k763cpe6jh4wh.streamlit.app/
 
 Antigravityで5分作成！
 
